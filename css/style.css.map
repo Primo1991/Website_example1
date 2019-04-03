@@ -1,0 +1,15 @@
+{
+    "version": 3,
+    "mappings": "AAOA,AAAA,CAAC,CAAC;EACE,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,UAAU,EAAE,UAAU;CAAG",
+    "sources": [
+        "../sass/style.sass",
+        "../sass/_variables.sass",
+        "../sass/_mixins.sass",
+        "../sass/_responsvie.sass",
+        "../sass/_header.sass",
+        "../sass/_nav.sass",
+        "../sass/_footer.sass"
+    ],
+    "names": [],
+    "file": "style.css"
+}
