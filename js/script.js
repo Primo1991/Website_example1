@@ -10,3 +10,7 @@ animals.splice(1,0, 'hamster')
 console.log(animals)
 
 test
+
+test
+
+test test
