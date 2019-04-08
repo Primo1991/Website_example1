@@ -9,10 +9,10 @@ console.log(animals)
 animals.splice(1,0, 'hamster')
 console.log(animals)
 
-test
+let names = ['Marek', 'Zemek', 'Adam'];
+console.log(names.sort());
 
-test
+let numbers = ['3','35','1','12','30'];
+console.log(numbers.sort());
 
-test test
-
-test
+let name = 'Marek, Przemek, Adam, Mikolaj, Sebastian'.split(', ', 2);
