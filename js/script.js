@@ -8,3 +8,5 @@ const animals =  ['dog', 'cat', 'canary', 'mouse'];
 console.log(animals)
 animals.splice(1,0, 'hamster')
 console.log(animals)
+
+test
