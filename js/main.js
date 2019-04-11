@@ -1,10 +1,10 @@
 // Pętla w pętli
 
-for (let i = 0; i < 3; i++) {
- for (let j = 0; j < 10; j++) {
-  console.log(`** zmienna i czyli ${i} pomnożona przez zmienną j czyli ${j} da wynik ${i * j}`);
- }
-}
+// for (let i = 0; i < 3; i++) {
+//  for (let j = 0; j < 10; j++) {
+//   console.log(`** zmienna i czyli ${i} pomnożona przez zmienną j czyli ${j} da wynik ${i * j}`);
+//  }
+// }
 
 
 
@@ -15,7 +15,7 @@ for (let i = 0; i < 3; i++) {
 // const usersAge = [19, 18, 15, 45, 34, 33, 25];
 
 // for (let i = 0; i < usersAge.length; i++) {
-//  // console.log(`użytkownik o indeksie ${i} jest w wieku ${usersAge[i]}`);
+//  console.log(`użytkownik o indeksie ${i} jest w wieku ${usersAge[i]}`);
 
 //  console.log('użytkownik o indeksie ' + i + ' jest w wieku ' + usersAge[i]);
 // }
@@ -49,8 +49,178 @@ for (let i = 0; i < 3; i++) {
 
 // PĘTLA FOR - OF (ES6)
 
-// const colors = ["red", "green", "black", "yellow", "white", "gold", "silver", "brown"]
+const colors = ["red", "green", "black", "yellow", "white", "gold", "silver", "brown"]
 
-// for (const color of colors) {
-//  console.log("mój ulubiony kolor to: " + i);
+for (const color of colors) {
+ console.log("mój ulubiony kolor to: " + color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const userAge = [ 1999 , 2012 , 2011, 1992, 1991, 2000, 1975, 1999,2010];
+// var currentYear = new Date().getFullYear();
+// for (i = 0; i < userAge.length; i++ ) {
+//     if (currentYear - userAge[i] <= 18){
+//         console.log(`Uzytkownik urodzony w ${userAge[i]} roku ma ${currentYear -userAge[i]}`)
+//         console.log('Twoj wiek jest zbyt niski wroc jak bedziesz mial 18 lat.');
+//     } else {
+//         console.log(`Uzytkownik urodzony w ${userAge[i]} roku ma ${currentYear - userAge[i]} lat`)
+//         console.log('Wchodzisz');
+//     }
 // }
+
+
+
+
+
+
+
+
+
+
+// const proffesion = ["Pilkarz","Emeryt","Polityk","Kucharz","Kierowca","Programista","Spawacz","Dj","Gracz","Awokat","Lekarz"];
+// for (i=0 ; i < proffesion.length ; i++ ){
+//     if (proffesion[i] === "Programista" || proffesion[i] === "Polityk"){
+//         console.log(`Przepraszam panie ${proffesion[i]} ale nie mamy juz miejsc`)}
+//     else{
+//         console.log(`Zapraszamy panie ${proffesion[i]}`);
+//         }
+// } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
