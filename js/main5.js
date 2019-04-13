@@ -64,16 +64,42 @@
 // // showName();
 
 
-let vals = [4,6,7,5,3,2,8,7];
-vals = vals.map(x => Math.floor(Math.random(0) * Math.floor(6)+ 1));
-console.log(vals);
+// let vals = [4,6,7,5,3,2,8,7];
+// vals = vals.map(x => Math.floor(Math.random(0) * Math.floor(6)+ 1));
+// console.log(vals);
 
-let y = vals.push(Math.floor(Math.random(0) * Math.floor(6)+ 1));
-console.log(vals)
+// let y = vals.push(Math.floor(Math.random(0) * Math.floor(6)+ 1));
+// console.log(vals)
 
-let x = () => {
-    vals.push(Math.floor(Math.random(0) * Math.floor(6)+ 1));
-    console.log(vals)
-};
+// let x = () => {
+//     vals.push(Math.floor(Math.random(0) * Math.floor(6)+ 1));
+//     console.log(vals)
+// };
 
-window.addEventListener('click', x);
+
+// let vals = new Array(10);
+// vals = vals.fill(0).map(x => Math.floor(Math.random(0) * Math.floor(6)+ 1));
+// window.addEventListener('click', console.log(vals));
+
+function map(value,key,map) {
+    console.log(`m[${key}] = ${value} from ${map}`)
+}
+
+let maps = new Map([['k1', 'v1'], ['k2','v2']]);
+maps.forEach(map);
+console.log(maps.set('k3','v3'));
+console.log(maps.set('k4','v4'));
+console.log(maps.forEach(map));
+// console.log(map.size)
+// console.log(map.has('k2'))
+// console.log(map)
+// console.log(map.delete('k2'))
+// console.log(map)
+// console.log(map.has('k2'))
+// console.log(map)
+// let examples = maps.keys();
+
+// console.log(map.keys('k1'))
+// console.log(map.clear())
+// console.log(map)
+// console.log(map.values());
