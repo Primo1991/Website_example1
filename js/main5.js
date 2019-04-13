@@ -99,7 +99,12 @@ console.log(maps.forEach(map));
 // console.log(map)
 // let examples = maps.keys();
 
+console.log(maps.entries().next().value)
+console.log(maps.entries().next().value)
 // console.log(map.keys('k1'))
 // console.log(map.clear())
 // console.log(map)
 // console.log(map.values());
+
+for(let kv of maps.entries())
+    console.log(`${kv[0]} : ${kv[1]}`);
