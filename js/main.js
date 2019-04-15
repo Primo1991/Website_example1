@@ -53,6 +53,8 @@ const colors = ["red", "green", "black", "yellow", "white", "gold", "silver", "b
 
 for (const color of colors) {
  console.log("mój ulubiony kolor to: " + color);
+
+ 
 }
 
 
