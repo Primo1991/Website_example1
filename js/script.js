@@ -29,17 +29,48 @@
 //}
 
 
-window.onload = function(){
-    var ninjas = ["Shen", "Zed", "Udyr", "Ahri", "Akali"]
-    var refinedNinjas = new Set(ninjas);
+// window.onload = function(){
+//     var ninjas = ["Shen", "Zed", "Udyr", "Ahri", "Akali"]
+//     var refinedNinjas = new Set(ninjas);
 
-    console.log(refinedNinjas)
+//     console.log(refinedNinjas)
 
-    ninjas = [...refinedNinjas]
+//     ninjas = [...refinedNinjas]
 
-    console.log(ninjas)
+//     console.log(ninjas)
 
-    for(let ninja of refinedNinjas.values())
-    console.log(ninja)
-}
+//     for(let ninja of refinedNinjas.values())
+//     console.log(ninja)
+// }
 
+// setTimeout(function(){
+//     console.log('Work');
+//     setTimeout(function(){
+//         console.log('Work 2');
+//     }, 1000);
+// },1000);
+// console.log('End')
+
+function asyncFunc(work) {
+    return new Promise(function(resolve, reject) {
+      if (work === "")
+        reject(Error("Nothing"));
+      setTimeout(function() {
+        resolve(work);
+      }, 1000);
+    });
+  }
+  
+  asyncFunc("Work 1") // Task 1
+  .then(function(result) {
+    console.log(result);
+    return asyncFunc("Work 2"); // Task 2
+  }, function(error) {
+    console.log(error);
+  })
+  .then(function(result) {
+    console.log(result);
+  }, function(error) {
+    console.log(error);
+  });
+  console.log("End");
